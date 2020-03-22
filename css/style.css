@@ -1891,7 +1891,7 @@ input[type="text"] {
   width: 50%;
   top: 0;
   left: 0vw;
-  height: 192px;
+  height: 100%;
   -webkit-transform-origin: center left;
           transform-origin: center left;
   position: absolute;
@@ -1906,7 +1906,7 @@ input[type="text"] {
   width: 50%;
   top: 0;
   left: 16.5vw;
-  height: 192px;
+  height: 100%;
   -webkit-transform-origin: center right;
           transform-origin: center right;
   position: absolute;
