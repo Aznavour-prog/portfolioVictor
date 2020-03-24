@@ -77,16 +77,16 @@ class animProjet{
         console.log(this.id);
         switch(this.id){
             case 'projet1' :
-                pInfo.innerHTML = "projet1 : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+                pInfo.innerHTML = "<h3 style='color:black'>Krypt :</h3> Dans ce projet je voulais faire le plus possible, j'était responsable du personnage principale (modélisation et animation) et de plusieurs fonctionnalité intégré dans ce petit jeu, je m'étais aussi occupé du système de dégat et le controlleur d'animation que notre personnage allait utilisé.";
             break;
             case 'projet2':
-                pInfo.innerHTML = "projet2 : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+                pInfo.innerHTML = "<h3 style='color:black'>Animation de 3D pour le Timcade :</h3> La Timcade était un projet d'équipe, j'ai fait la production de quelques modèles de l'arcade principale et l'animation de plusieurs des moments de la cinématique. Je m'étais aussi occupé du scénario même si celui-ci était très simple pour le projet qui était demandé.";
             break;
             case 'projet3':
-                pInfo.innerHTML = "projet3 : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+                pInfo.innerHTML = "<h3 style='color:black'>The lonely sniper, un projet Blender :</h3> Ce projet était intéressant puisque j'ai du produire un projet tout en apprenant un nouveau programme de modélisation 3D. Le projet avait été fait dans blender et j'ai utilisé le projet dans des compositions photoshop puisque je n'ai pas eu le temps de faire un produit parfait.";
             break;
             case 'projet4':
-                pInfo.innerHTML = "projet4 : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+                pInfo.innerHTML = "<h3 style='color:black'>Projet de PHP pour la TDI de Maisonneuve :</h3> Dans ce projet je me suis occupé de tout ce qui était back-end, nous avons fait ce back-end entièrement en PHP et en AJAX. J'avais fait aussi quelques maquettes pour le concept de design original mais celui-ci a changé énormément au cours du projet.";
             break;
         }
     }

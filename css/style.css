@@ -1758,8 +1758,8 @@ input[type="text"] {
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
   position: fixed;
-  top: 52vh;
-  left: 40vw;
+  top: 53vh;
+  left: 39.3vw;
   border: 1px solid black;
 }
 
@@ -1931,7 +1931,7 @@ input[type="text"] {
   .oImageGrande {
     width: 200px;
     height: 200px;
-    top: 70vh;
+    top: 69vh;
     left: 37vw;
   }
   #experience1 {
@@ -2007,7 +2007,7 @@ input[type="text"] {
     width: 225px;
     height: 225px;
     top: 63%;
-    left: 39%;
+    left: 39vw;
   }
   .icon-cross {
     padding-left: 94%;
@@ -2050,6 +2050,15 @@ input[type="text"] {
     transition: transform 0.3s;
     transition: transform 0.3s, -webkit-transform 0.3s;
   }
+  .icon-cross {
+    padding-left: 93%;
+  }
+  .oImageGrande {
+    width: 225px;
+    height: 225px;
+    top: 63%;
+    left: 37vw;
+  }
   .oDivImage {
     margin-left: 1vw;
     margin-top: 30.5vh;
@@ -2079,11 +2088,14 @@ input[type="text"] {
   }
   .oDivImage {
     margin-left: 9vw;
-    margin-top: 22vh;
+    margin-top: 24vh;
   }
   .oImageGrande {
-    top: 56%;
-    left: 38.5%;
+    top: 58%;
+    left: 38vw;
+  }
+  .rectangleProjet3 {
+    height: 79vh;
   }
 }
 
@@ -2102,9 +2114,16 @@ input[type="text"] {
     transition: transform 0.3s;
     transition: transform 0.3s, -webkit-transform 0.3s;
   }
+  .rectangleProjet3 {
+    height: 79vh;
+  }
   .oDivImage {
-    margin-left: 9vw;
-    margin-top: 24vh;
+    margin-left: 7vw;
+    margin-top: 25vh;
+  }
+  .oImageGrande {
+    top: 58%;
+    left: 37vw;
   }
   #labelHeader {
     left: 87%;
