@@ -88,11 +88,11 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header,
 .fh5co-cover {
   background-color: transparent;
-  background-size: cover;
-  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   position: relative;
   height: 600px;
-  width: 100%;
+  width: auto;
 }
 
 #fh5co-header .overlay,
@@ -351,7 +351,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-resume {
   padding-top: 3em;
-  padding-bottom: 25em;
+  padding-bottom: 20em;
 }
 
 #fh5co-started {

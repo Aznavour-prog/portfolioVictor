@@ -1531,7 +1531,7 @@ input[type="text"] {
   position: absolute;
   z-index: 999;
   top: 3%;
-  left: 92%;
+  left: 90%;
   height: 50px;
   width: 200px;
   overflow: hidden;
@@ -1642,8 +1642,10 @@ input[type="text"] {
 }
 
 .experience {
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: -webkit-transform 1s, -webkit-box-shadow 1s;
+  transition: -webkit-transform 1s, -webkit-box-shadow 1s;
+  transition: transform 1s, box-shadow 1s;
+  transition: transform 1s, box-shadow 1s, -webkit-transform 1s, -webkit-box-shadow 1s;
 }
 
 .experience h3 {
@@ -1655,8 +1657,10 @@ input[type="text"] {
 .experience:hover {
   -webkit-transform: translate(0px, -5px);
           transform: translate(0px, -5px);
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: -webkit-transform 1s, -webkit-box-shadow 1s;
+  transition: -webkit-transform 1s, -webkit-box-shadow 1s;
+  transition: transform 1s, box-shadow 1s;
+  transition: transform 1s, box-shadow 1s, -webkit-transform 1s, -webkit-box-shadow 1s;
   -webkit-box-shadow: -2px 54px 24px -20px rgba(0, 0, 0, 0.31);
   box-shadow: -2px 54px 24px -20px rgba(0, 0, 0, 0.31);
 }
@@ -1668,15 +1672,19 @@ input[type="text"] {
 }
 
 .experience:hover .rectangle1 {
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
   -webkit-transform: scaleX(0) translate(0px, -1px);
           transform: scaleX(0) translate(0px, -1px);
 }
 
 .experience:hover .rectangle2 {
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
   -webkit-transform: scaleX(0) translate(0px, -1px);
           transform: scaleX(0) translate(0px, -1px);
 }
@@ -1692,17 +1700,205 @@ input[type="text"] {
   color: black !important;
 }
 
+.rectangleProjet {
+  position: absolute;
+  height: 800vh;
+  top: -5%;
+  width: 49.5vw;
+  z-index: 5;
+  border-right: 1px solid white;
+  background-color: #51a89f80;
+  -webkit-transform-origin: center left;
+          transform-origin: center left;
+  -webkit-animation: animRectangle 1s;
+          animation: animRectangle 1s;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+  display: block;
+}
+
+.imageCaroussel {
+  width: 100px;
+  height: 100px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.imageCaroussel:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.oDivImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+  height: 100px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-left: 11vw;
+  margin-top: 20vh;
+}
+
+.oImageGrande {
+  width: 300px;
+  height: 300px;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  position: fixed;
+  top: 53vh;
+  left: 39.3vw;
+  border: 1px solid black;
+}
+
+@-webkit-keyframes animImage {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes animImage {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.rectangleProjet2 {
+  position: absolute;
+  height: 800vh;
+  top: -5%;
+  width: 52vw;
+  left: 49.5vw;
+  z-index: 5;
+  border-left: 1px solid white;
+  background-color: #51a89f80;
+  -webkit-transform-origin: center right;
+          transform-origin: center right;
+  -webkit-animation: animRectangle 1s;
+          animation: animRectangle 1s;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+  display: block;
+}
+
+.oDivInfo {
+  width: 90%;
+  padding-left: 10%;
+  position: absolute;
+}
+
+.rectangleProjet3 {
+  position: fixed;
+  left: 25vw;
+  top: 15vh;
+  z-index: 6;
+  background-color: white;
+  border: 1px solid black;
+  width: 50vw;
+  height: 75vh;
+  -webkit-animation: animRectangleProjet 2s;
+          animation: animRectangleProjet 2s;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+  display: block;
+}
+
+.icon-cross:hover {
+  color: black;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.icon-cross {
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  font-size: 2em;
+  padding-left: 96%;
+}
+
+@-webkit-keyframes animRectangle {
+  from {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  to {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+@keyframes animRectangle {
+  from {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  to {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+@-webkit-keyframes animRectangleProjet {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes animRectangleProjet {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .rectangle1 {
   background-color: #350000;
   width: 50%;
   top: 0;
   left: 0vw;
-  height: 185px;
+  height: 100%;
   -webkit-transform-origin: center left;
           transform-origin: center left;
   position: absolute;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
 .rectangle2 {
@@ -1710,58 +1906,241 @@ input[type="text"] {
   width: 50%;
   top: 0;
   left: 16.5vw;
-  height: 185px;
+  height: 100%;
   -webkit-transform-origin: center right;
           transform-origin: center right;
   position: absolute;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
 @media screen and (max-width: 770px) {
   #camembaire {
     display: none;
   }
-  .desc span {
-    color: black !important;
+  .oDivImage {
+    margin-left: 0;
+    margin-top: 36vh;
+    width: 100%;
   }
-  .rectangle1 {
-    background-color: blue !important;
+  .rectangleProjet3 {
+    height: 78vh;
   }
-  .rectangle2 {
-    background-color: #350000;
-    width: 50%;
-    top: 0;
-    left: 25.5vw;
-    height: 185px;
-    -webkit-transform-origin: center right;
-            transform-origin: center right;
-    position: absolute;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
+  .oImageGrande {
+    width: 200px;
+    height: 200px;
+    top: 69vh;
+    left: 37vw;
   }
-}
-
-@media screen and (max-width: 990px) {
   #experience1 {
     margin-left: 0;
     margin-top: 5%;
   }
+  .icon-cross {
+    padding-left: 92%;
+  }
+  #labelHeader {
+    left: 85%;
+  }
+  .desc span {
+    color: black !important;
+  }
+  .rectangle1 {
+    background-color: #350000;
+    width: 51%;
+    top: 0;
+    left: 0;
+    height: 150px;
+    -webkit-transform-origin: center left;
+            transform-origin: center left;
+    position: absolute;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+  }
   .rectangle2 {
     background-color: #350000;
     width: 50%;
     top: 0;
-    left: 25.5vw;
-    height: 185px;
+    left: 49vw;
+    height: 150px;
     -webkit-transform-origin: center right;
             transform-origin: center right;
     position: absolute;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+  }
+}
+
+@media screen and (min-width: 771px) and (max-width: 990px) {
+  #experience1 {
+    margin-left: 0;
+    margin-top: 5%;
+  }
+  .rectangle1 {
+    background-color: #350000;
+    width: 51%;
+    top: 0;
+    left: 0;
+    height: 135px;
+    -webkit-transform-origin: center left;
+            transform-origin: center left;
+    position: absolute;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+  }
+  .oDivImage {
+    margin-left: 9vw;
+    margin-top: 28vh;
+  }
+  .oDivImage {
+    margin-left: 10%;
+  }
+  .oImageGrande {
+    width: 225px;
+    height: 225px;
+    top: 63%;
+    left: 39vw;
+  }
+  .icon-cross {
+    padding-left: 94%;
+  }
+  #labelHeader {
+    left: 87%;
+  }
+  .rectangle2 {
+    background-color: #350000;
+    width: 51%;
+    top: 0;
+    left: 49vw;
+    height: 135px;
+    -webkit-transform-origin: center right;
+            transform-origin: center right;
+    position: absolute;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
   }
   .work:hover {
     -webkit-transform: translate(0px, -5px);
             transform: translate(0px, -5px);
+  }
+}
+
+@media screen and (min-width: 771px) and (max-width: 825px) {
+  .rectangle1 {
+    background-color: #350000;
+    width: 51%;
+    top: 0;
+    left: 0;
+    height: 155px;
+    -webkit-transform-origin: center left;
+            transform-origin: center left;
+    position: absolute;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+  }
+  .icon-cross {
+    padding-left: 93%;
+  }
+  .oImageGrande {
+    width: 225px;
+    height: 225px;
+    top: 63%;
+    left: 37vw;
+  }
+  .oDivImage {
+    margin-left: 1vw;
+    margin-top: 30.5vh;
+  }
+  #labelHeader {
+    left: 86%;
+  }
+  .rectangle2 {
+    background-color: #350000;
+    width: 51%;
+    top: 0;
+    left: 49vw;
+    height: 155px;
+    -webkit-transform-origin: center right;
+            transform-origin: center right;
+    position: absolute;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .icon-cross {
+    padding-left: 94%;
+  }
+  .oDivImage {
+    margin-left: 9vw;
+    margin-top: 24vh;
+  }
+  .oImageGrande {
+    top: 58%;
+    left: 38vw;
+  }
+  .rectangleProjet3 {
+    height: 79vh;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1120px) {
+  .rectangle1 {
+    background-color: #350000;
+    width: 50%;
+    top: 0;
+    left: 0;
+    height: 215px;
+    -webkit-transform-origin: center left;
+            transform-origin: center left;
+    position: absolute;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+  }
+  .rectangleProjet3 {
+    height: 79vh;
+  }
+  .oDivImage {
+    margin-left: 7vw;
+    margin-top: 25vh;
+  }
+  .oImageGrande {
+    top: 58%;
+    left: 37vw;
+  }
+  #labelHeader {
+    left: 87%;
+  }
+  .rectangle2 {
+    background-color: #350000;
+    width: 51%;
+    top: 0;
+    left: 16.1vw;
+    height: 215px;
+    -webkit-transform-origin: center right;
+            transform-origin: center right;
+    position: absolute;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
   }
 }
 /*# sourceMappingURL=style.css.map */
