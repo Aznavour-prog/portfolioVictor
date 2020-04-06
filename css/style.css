@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -1273,8 +1274,7 @@ input[type="text"] {
 .gototop a:hover, .gototop a:active, .gototop a:focus {
   text-decoration: none;
   outline: none;
-  background: rgba(255, 255, 255, 0.8);
-  border: 1px solid black;
+  background: rgba(131, 131, 131, 0.8);
 }
 
 .gototop a:hover i, .gototop a:active i, .gototop a:focus i {
@@ -1589,6 +1589,11 @@ input[type="text"] {
   width: 90%;
 }
 
+/* 
+*
+* CSS PRODUIT PAR VICTOR CYR-DESMEULES
+* J'ai changé plusieurs petits éléments css dans les lignes avant ceci mais c'est juste certaines propriétés (ex: padding de section, couleurs, visibilité etc)
+*/
 #checkMenu {
   display: none;
 }

@@ -1141,10 +1141,12 @@ input[type="text"] {
 	right: 20px;
 	z-index: 999;
 	opacity: 0;
+	
 	visibility: hidden;
 	@include transition(.5s);
 	&.active {
 		opacity: 1;
+		
 		visibility: visible;
 	}
 	a {
@@ -1164,8 +1166,8 @@ input[type="text"] {
 		&:hover, &:active, &:focus {
 			text-decoration: none;
 			outline: none;
-			background: rgba(255, 255, 255, 0.8);
-			border:1px solid black;
+			background: rgba(131, 131, 131, 0.8);
+			
 			i{
 				color:black;
 			}
@@ -1423,6 +1425,12 @@ label:hover:before {
 }
 }
 
+
+/* 
+*
+* CSS PRODUIT PAR VICTOR CYR-DESMEULES
+* J'ai changé plusieurs petits éléments css dans les lignes avant ceci mais c'est juste certaines propriétés (ex: padding de section, couleurs, visibilité etc)
+*/
 #checkMenu {
 	display:none;
 }

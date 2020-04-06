@@ -14,10 +14,10 @@ var smoothScroll = function(elementId) {
         if (target == scrollContainer) break;
         targetY += target.offsetTop;
     } while (target = target.offsetParent);
-
+    //variable utilisé pour la vitesse de scrolling
     var pixelsPerStep = Math.max(MIN_PIXELS_PER_STEP,
                                  (targetY - scrollContainer.scrollTop) / MAX_SCROLL_STEPS);
-
+    //variable utilisé pour déclarer une fonction qui va demander de scrollDown et va se déclarer tout seul tant que notre scrollContainerY n'est pas égal a notre targetY
     var stepFunc = function() {
         scrollContainer.scrollTop =
             Math.min(targetY, pixelsPerStep + scrollContainer.scrollTop);
