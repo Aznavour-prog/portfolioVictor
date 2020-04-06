@@ -1156,6 +1156,7 @@ input[type="text"] {
 		background: rgba(0,0,0,.8);
 		color: $brand-white;
 		text-align: center;
+		border:1px solid black;
 		@include border-radius(50%);
 		i {
 			height: 50px;
@@ -1166,7 +1167,7 @@ input[type="text"] {
 		&:hover, &:active, &:focus {
 			text-decoration: none;
 			outline: none;
-			background: rgba(131, 131, 131, 0.8);
+			background: rgba(255, 255, 255, 0.8);
 			
 			i{
 				color:black;

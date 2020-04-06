@@ -1262,6 +1262,7 @@ input[type="text"] {
   background: rgba(0, 0, 0, 0.8);
   color: #fff;
   text-align: center;
+  border: 1px solid black;
   border-radius: 50%;
 }
 
@@ -1274,7 +1275,7 @@ input[type="text"] {
 .gototop a:hover, .gototop a:active, .gototop a:focus {
   text-decoration: none;
   outline: none;
-  background: rgba(131, 131, 131, 0.8);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .gototop a:hover i, .gototop a:active i, .gototop a:focus i {

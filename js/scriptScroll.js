@@ -22,7 +22,7 @@ var smoothScroll = function(elementId) {
         scrollContainer.scrollTop =
             Math.min(targetY, pixelsPerStep + scrollContainer.scrollTop);
 
-        if (scrollContainer.scrollTop >= targetY) {
+        if (scrollContainer.scrollTop >= targetY - 50) {
             return;
         }
 
