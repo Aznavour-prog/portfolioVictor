@@ -20,6 +20,7 @@ class animProjet{
         //selection de la page principale afin de parenter mes nouveaux éléments 
         let page = document.querySelector("#page");
         let body = document.querySelector("body");
+        //je donne cette propriété au body afin de pouvoir empêcher l'utilisateur de pouvoir scroll pendant qu'il regarde un projet
         body.style.height = "100%";
         body.style.overflowY = "hidden";
         page.appendChild(rectangle2);
