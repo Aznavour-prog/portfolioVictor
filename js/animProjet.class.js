@@ -79,18 +79,20 @@ class animProjet{
         //selon le projet choisie je voulais avoir des images différentes et un texte différent (pour certains projet je ne savais pas quel images mettrent donc je n'ai juste pas d'array pour l'instant)
         switch(this.id){
             case 'projet1' :
-                
+                aoImg = ['captureAffiche.jpg','captureJeu.jpg','captureJeuTitre.jpg'];
                 pInfo.innerHTML = "<h3 style='color:black'>Krypt :</h3> Dans ce projet je voulais faire le plus possible, j'était responsable du personnage principale (modélisation et animation) et de plusieurs fonctionnalité intégré dans ce petit jeu, je m'étais aussi occupé du système de dégat et le controlleur d'animation que notre personnage allait utilisé.";
             break;
             case 'projet2':
+                aoImg = ['captureArcade.jpg','captureArcadeWireframe.jpg','captureArcadeJeu.jpg'];
                 pInfo.innerHTML = "<h3 style='color:black'>Animation de 3D pour le Timcade :</h3> La Timcade était un projet d'équipe, j'ai fait la production de quelques modèles de l'arcade principale et l'animation de plusieurs des moments de la cinématique. Je m'étais aussi occupé du scénario même si celui-ci était très simple pour le projet qui était demandé.";
             break;
             case 'projet3':
                 aoImg = ['theLonelySniper.jpg','compositionPersonnage.jpg','compositionPersonnage2.jpg'];
-                
                 pInfo.innerHTML = "<h3 style='color:black'>The lonely sniper, un projet Blender :</h3> Ce projet était intéressant puisque j'ai du produire un projet tout en apprenant un nouveau programme de modélisation 3D. Le projet avait été fait dans blender et j'ai utilisé le projet dans des compositions photoshop puisque je n'ai pas eu le temps de faire un produit parfait.";
             break;
             case 'projet4':
+                //Je n'ai pas d'image ici, je vais donc prendre des images au hasard
+                aoImg = ['portfolio-6.jpg','portfolio-3.jpg','portfolio-5.jpg'];
                 pInfo.innerHTML = "<h3 style='color:black'>Projet de PHP pour la TDI de Maisonneuve :</h3> Dans ce projet je me suis occupé de tout ce qui était back-end, nous avons fait ce back-end entièrement en PHP et en AJAX. J'avais fait aussi quelques maquettes pour le concept de design original mais celui-ci a changé énormément au cours du projet.";
             break;
         }

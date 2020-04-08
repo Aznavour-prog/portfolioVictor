@@ -104,6 +104,8 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   background: rgba(81, 168, 160, 0.9);
+  -webkit-box-shadow: inset 0px -45px 49px -46px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px -45px 49px -46px rgba(0, 0, 0, 0.75);
 }
 
 #fh5co-header .display-t,
@@ -347,6 +349,8 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-work {
   padding-top: 3em;
+  -webkit-box-shadow: inset 0px 2px 127px -56px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 2px 127px -56px rgba(0, 0, 0, 0.75);
   background-color: #51a8a0;
 }
 
@@ -1098,6 +1102,8 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-shadow: inset 0px 67px 122px -87px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 67px 122px -87px rgba(0, 0, 0, 0.75);
   text-align: center;
 }
 

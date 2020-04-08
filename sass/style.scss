@@ -176,6 +176,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header,
 .fh5co-cover {
 	background-color: transparent;
+	
 	background-size:100% 100%;
 	background-repeat:no-repeat;
 	position: relative;
@@ -188,6 +189,9 @@ h1, h2, h3, h4, h5, h6, figure {
 		left: 0;
 		right: 0;
 		background: rgba($brand-primary,.9);
+		-webkit-box-shadow: inset 0px -45px 49px -46px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px -45px 49px -46px rgba(0,0,0,0.75);
+box-shadow: inset 0px -45px 49px -46px rgba(0,0,0,0.75);
 	}
 	.display-t{
 		width: 100%;
@@ -386,7 +390,9 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-work{
 	padding-top:3em;
-	
+	-webkit-box-shadow: inset 0px 2px 127px -56px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 2px 127px -56px rgba(0,0,0,0.75);
+box-shadow: inset 0px 2px 127px -56px rgba(0,0,0,0.75);
 	background-color: $brand-primary;
 }
 #fh5co-resume{
@@ -1015,6 +1021,9 @@ box-shadow: 0px 24px 22px -7px rgba(0,0,0,0.5);
 	@include flexwrap();
 	width: 100%;
 	justify-content: center;
+	-webkit-box-shadow: inset 0px 67px 122px -87px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 67px 122px -87px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 67px 122px -87px rgba(0,0,0,0.75);
 	text-align:center;
 	.video, .choose{
 		display: inline-block;
