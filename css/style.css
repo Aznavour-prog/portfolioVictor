@@ -1601,6 +1601,27 @@ input[type="text"] {
 * CSS PRODUIT PAR VICTOR CYR-DESMEULES
 * J'ai changé plusieurs petits éléments css dans les lignes avant ceci mais c'est juste certaines propriétés (ex: padding de section, couleurs, visibilité etc)
 */
+.boutonTelechargement {
+  padding: 1%;
+  border: none;
+  border-radius: 25px;
+  position: absolute;
+  left: 89%;
+  top: 89%;
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  -webkit-transition: 0.5s background-color,0.5s color;
+  transition: 0.5s background-color,0.5s color;
+}
+
+.boutonTelechargement:hover {
+  background-color: #e2e2e2;
+  color: black;
+  -webkit-transition: 0.5s background-color,0.5s color;
+  transition: 0.5s background-color,0.5s color;
+}
+
 #checkMenu {
   display: none;
 }
@@ -1932,6 +1953,14 @@ input[type="text"] {
   #camembaire {
     display: none;
   }
+  #fh5co-resume {
+    padding-bottom: 10em;
+  }
+  .boutonTelechargement {
+    left: 83%;
+    top: 90%;
+    padding: 2%;
+  }
   .oDivImage {
     margin-left: 0;
     margin-top: 36vh;
@@ -1964,7 +1993,7 @@ input[type="text"] {
     width: 51%;
     top: 0;
     left: 0;
-    height: 150px;
+    height: 100%;
     -webkit-transform-origin: center left;
             transform-origin: center left;
     position: absolute;
@@ -1978,7 +2007,7 @@ input[type="text"] {
     width: 50%;
     top: 0;
     left: 49vw;
-    height: 150px;
+    height: 100%;
     -webkit-transform-origin: center right;
             transform-origin: center right;
     position: absolute;
@@ -1994,12 +2023,20 @@ input[type="text"] {
     margin-left: 0;
     margin-top: 5%;
   }
+  #fh5co-resume {
+    padding-bottom: 10em;
+  }
+  .boutonTelechargement {
+    left: 83%;
+    top: 90%;
+    padding: 2%;
+  }
   .rectangle1 {
     background-color: #350000;
     width: 51%;
     top: 0;
     left: 0;
-    height: 135px;
+    height: 100%;
     -webkit-transform-origin: center left;
             transform-origin: center left;
     position: absolute;
@@ -2032,7 +2069,7 @@ input[type="text"] {
     width: 51%;
     top: 0;
     left: 49vw;
-    height: 135px;
+    height: 100%;
     -webkit-transform-origin: center right;
             transform-origin: center right;
     position: absolute;
@@ -2053,7 +2090,7 @@ input[type="text"] {
     width: 51%;
     top: 0;
     left: 0;
-    height: 155px;
+    height: 100%;
     -webkit-transform-origin: center left;
             transform-origin: center left;
     position: absolute;
@@ -2083,7 +2120,7 @@ input[type="text"] {
     width: 51%;
     top: 0;
     left: 49vw;
-    height: 155px;
+    height: 100%;
     -webkit-transform-origin: center right;
             transform-origin: center right;
     position: absolute;
@@ -2117,7 +2154,7 @@ input[type="text"] {
     width: 50%;
     top: 0;
     left: 0;
-    height: 215px;
+    height: 100%;
     -webkit-transform-origin: center left;
             transform-origin: center left;
     position: absolute;
@@ -2145,7 +2182,7 @@ input[type="text"] {
     width: 51%;
     top: 0;
     left: 16.1vw;
-    height: 215px;
+    height: 100%;
     -webkit-transform-origin: center right;
             transform-origin: center right;
     position: absolute;

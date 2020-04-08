@@ -1441,6 +1441,30 @@ label:hover:before {
 * CSS PRODUIT PAR VICTOR CYR-DESMEULES
 * J'ai changé plusieurs petits éléments css dans les lignes avant ceci mais c'est juste certaines propriétés (ex: padding de section, couleurs, visibilité etc)
 */
+
+
+.boutonTelechargement{
+	padding:1%;
+	border:none;
+	border-radius:25px;
+	position:absolute;
+
+	left:89%;
+	top:89%;
+	background-color:black;
+	border:1px solid black;
+	color:white;
+	transition:0.5s background-color,0.5s color;
+
+	&:hover{
+		
+		background-color:rgb(226, 226, 226);
+		color:black;
+		transition:0.5s background-color,0.5s color;
+	}
+}
+
+
 #checkMenu {
 	display:none;
 }
@@ -1677,6 +1701,17 @@ h3{
 		display:none;
 	}
 
+	#fh5co-resume{
+		padding-bottom:10em;
+	}
+	
+	.boutonTelechargement{
+		left:83%;
+		top:90%;
+		padding:2%;
+	}
+
+	
 	.oDivImage{
 		margin-left:0;
 		margin-top:36vh;
@@ -1712,7 +1747,7 @@ h3{
 		width:51%;
 		top:0;
 		left:0;
-		height:150px;
+		height:100%;
 		transform-origin:center left;
 		position:absolute;
 		transition:transform 0.3s;
@@ -1722,7 +1757,7 @@ h3{
 		width:50%;
 		top:0;
 		left:49vw;
-		height:150px;
+		height:100%;
 		transform-origin:center right;
 		position:absolute;
 		transition:transform 0.3s;
@@ -1734,12 +1769,21 @@ h3{
 		margin-left:0;
 		margin-top:5%;
 	}
+	#fh5co-resume{
+		padding-bottom:10em;
+	}
+	
+	.boutonTelechargement{
+		left:83%;
+		top:90%;
+		padding:2%;
+	}
 	.rectangle1{
 		background-color:rgb(53, 0, 0);
 		width:51%;
 		top:0;
 		left:0;
-		height:135px;
+		height:100%;
 		transform-origin:center left;
 		position:absolute;
 		transition:transform 0.3s;
@@ -1770,7 +1814,7 @@ h3{
 		width:51%;
 		top:0;
 		left:49vw;
-		height:135px;
+		height:100%;
 		transform-origin:center right;
 		position:absolute;
 		transition:transform 0.3s;
@@ -1789,11 +1833,12 @@ h3{
 		width:51%;
 		top:0;
 		left:0;
-		height:155px;
+		height:100%;
 		transform-origin:center left;
 		position:absolute;
 		transition:transform 0.3s;
 	}
+	
 	.icon-cross{
 		padding-left:93%;
 	}
@@ -1815,7 +1860,7 @@ h3{
 		width:51%;
 		top:0;
 		left:49vw;
-		height:155px;
+		height:100%;
 		transform-origin:center right;
 		position:absolute;
 		transition:transform 0.3s;
@@ -1831,7 +1876,8 @@ h3{
 		margin-left:9vw;
 		margin-top:24vh;
 	}
-
+	
+	
 	.oImageGrande{
 		top:58%;
 		left:38vw;
@@ -1847,7 +1893,7 @@ h3{
 		width:50%;
 		top:0;
 		left:0;
-		height:215px;
+		height:100%;
 		transform-origin:center left;
 		position:absolute;
 		transition:transform 0.3s;
@@ -1873,7 +1919,7 @@ h3{
 		width:51%;
 		top:0;
 		left:16.1vw;
-		height:215px;
+		height:100%;
 		transform-origin:center right;
 		position:absolute;
 		transition:transform 0.3s;
