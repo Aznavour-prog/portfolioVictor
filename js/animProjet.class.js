@@ -1,9 +1,10 @@
 class animProjet{
-    constructor(hauteur,largeur,id){
+    constructor(hauteur,largeur,id,arrayImage){
         
         this.hauteur = hauteur;
         this.largeur = largeur;
         this.id = id;
+        this.arrayImage = arrayImage;
         this.creerRectangle();
     }
 

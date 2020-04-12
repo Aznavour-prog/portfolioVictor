@@ -3,7 +3,7 @@ window.onload = function(){
 
     //au moment de la création de la page, ajout des events listener pour les projets
     let aoProjets = document.querySelectorAll(".desc");
-
+   
     for(let i = 0;i<aoProjets.length;i++){
         aoProjets[i].addEventListener("click", function(){
             test(aoProjets[i]);
