@@ -1626,6 +1626,22 @@ input[type="text"] {
   display: none;
 }
 
+#labelHeader label {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+#labelHeader label:hover {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+#labelHeader label:active {
+  color: white;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
 #menuHeader {
   position: absolute;
   width: 150%;

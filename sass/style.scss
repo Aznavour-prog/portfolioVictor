@@ -1468,7 +1468,18 @@ label:hover:before {
 #checkMenu {
 	display:none;
 }
+#labelHeader label{
+	transition:all 1s;
+}
+#labelHeader label:hover{
+	
+	transition:all 1s;
+}
 
+#labelHeader label:active{
+	color:white;
+	transition:all 1s;
+}
 #menuHeader{
 	position:absolute;
 	
@@ -1482,8 +1493,6 @@ label:hover:before {
 		}
 		a:hover{
 			letter-spacing: 1px;
-			
-			
 		}
 
 		a:after{
