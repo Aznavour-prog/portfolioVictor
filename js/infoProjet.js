@@ -15,7 +15,7 @@ window.onload = function(){
         var sSrc = ['captureAffiche.jpg','captureJeu.jpg','captureJeuTitre.jpg','captureArcade.jpg','captureArcadeWireframe.jpg','captureArcadeJeu.jpg','theLonelySniper.jpg','compositionPersonnage.jpg','compositionPersonnage2.jpg','portfolio-6.jpg','portfolio-3.jpg','portfolio-5.jpg'];
       // push two images to the array 
       for(let i = 0;i<sSrc.length;i++){
-        images[i] = createImage('/images/' + sSrc[i], "image"+i); 
+        images[i] = createImage('portfolioVictor/images/' + sSrc[i], "image"+i); 
       }
       console.log(images);
     for(let i = 0;i<aoProjets.length;i++){
