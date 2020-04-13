@@ -836,8 +836,8 @@ h1, h2, h3, h4, h5, h6, figure {
 .chart:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  -webkit-transition: 0.5s all;
-  transition: 0.5s all;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
 }
 
 .work {
