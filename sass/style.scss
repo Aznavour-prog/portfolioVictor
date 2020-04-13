@@ -1211,6 +1211,7 @@ input[type="text"] {
 	background: black;
 	color: $brand-white;
 	border: 2px solid $brand-primary;
+	font-family:'Lato', sans-serif;
 	&:hover, &:focus, &:active {
 		background: white;
 		border-color: lighten($brand-primary, 5%)!important;
@@ -1478,7 +1479,7 @@ label:hover:before {
 
 #labelHeader label:active{
 	color:white;
-	transition:all 1s;
+	transition:all 0.5s;
 }
 #menuHeader{
 	position:absolute;

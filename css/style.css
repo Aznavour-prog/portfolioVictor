@@ -1318,6 +1318,7 @@ input[type="text"] {
   background: black;
   color: #fff;
   border: 2px solid #51a8a0;
+  font-family: 'Lato', sans-serif;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -1638,8 +1639,8 @@ input[type="text"] {
 
 #labelHeader label:active {
   color: white;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 #menuHeader {
